@@ -1,0 +1,23 @@
+{
+  "name": "BasicPortfolio",
+  "version": "1.0.0",
+  "description": "First homework assignment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/answebdev/BasicPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/answebdev/BasicPortfolio/issues"
+  },
+  "homepage": "https://github.com/answebdev/BasicPortfolio#readme",
+  "dependencies": {
+    "cypress": "^9.5.0"
+  }
+}

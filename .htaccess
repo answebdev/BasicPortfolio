@@ -2,7 +2,7 @@
 
 RewriteEngine on
 
-# does not apply to existing directories, meaning that if the folder exists  on the server,
+# does not apply to existing directories, meaning that if the folder exists on the server,
 then do not change anything and do not run the rule
 
 RewriteCond %{REQUEST_FILENAME} !-d
