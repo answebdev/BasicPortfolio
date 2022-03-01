@@ -1,4 +1,4 @@
-name: ci
+name: End-to-end tests
 on: [push]
 jobs:
   test:
