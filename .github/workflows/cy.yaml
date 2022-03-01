@@ -1,8 +1,11 @@
-name: ci
+name: End-to-end tests
 on: [push]
 jobs:
-  test:
-    # use the reusable workflow to check out the code, install dependencies
-    # and run the Cypress tests
-    # https://github.com/bahmutov/cypress-workflows
-    uses: bahmutov/cypress-workflows/.github/workflows/standard.yml@v1
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Cypress run
+        uses: cypress-io/github-action@v1
