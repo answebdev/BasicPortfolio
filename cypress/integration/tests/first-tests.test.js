@@ -12,7 +12,7 @@ describe('First Test Suite', () => {
 
     cy.contains('Contact').click();
     cy.log('Checking URL for Contact page');
-    cy.url().should('include', '/contact');
+    cy.url().should('include', '/contacts');
     cy.log('Checking contact form');
     cy.get('[data-test=name]').type('ABRACADABRA');
     cy.get('[data-test=email]').type('abracadabra@gmail.com');
