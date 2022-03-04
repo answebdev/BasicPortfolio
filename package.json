@@ -17,7 +17,7 @@
     "url": "https://github.com/answebdev/BasicPortfolio/issues"
   },
   "homepage": "https://github.com/answebdev/BasicPortfolio#readme",
-  "dependencies": {
-    "cypress": "^9.5.0"
+  "devDependencies": {
+    "cypress": "^9.5.1"
   }
 }
