@@ -14,10 +14,8 @@ describe('First Test Suite', () => {
     cy.log('Checking URL for Contact page');
     cy.url().should('include', '/contact');
     cy.log('Checking contact form');
-    cy.get('[data-test=name]').type('ABRACADABRA');
-    cy.get('[data-test=email]').type('abracadabra@gmail.com');
-    cy.get('[data-test=message]').type(
-      'Hello. Would you like to see some ABRACADABRA?'
-    );
+    cy.get('[data-test=name]').type('John Doe');
+    cy.get('[data-test=email]').type('johndoe@gmail.com');
+    cy.get('[data-test=message]').type('This is a test message');
   });
 });
