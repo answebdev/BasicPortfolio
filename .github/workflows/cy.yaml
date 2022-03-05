@@ -1,8 +1,5 @@
 name: End-to-end tests
-on:
-  schedule:
-    # Runs "at minute 55 past every hour" (see https://crontab.guru)
-    - cron: '55 * * * *'
+on: [push]
 jobs:
   cypress-run:
     runs-on: ubuntu-20.04
