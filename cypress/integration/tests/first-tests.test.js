@@ -16,6 +16,6 @@ describe('First Test Suite', () => {
     cy.log('Checking contact form');
     cy.get('[data-test=name]').type('John Doe');
     cy.get('[data-test=email]').type('johndoe@gmail.com');
-    cy.get('[data-test=message]').type('This is a test message');
+    cy.get('[data-test=message]').type('This is a test message.');
   });
 });
